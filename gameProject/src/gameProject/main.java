@@ -17,20 +17,20 @@ public class main {
 
 		GamerService gamerService= new GamerMenager(new MernisServiceAdapters());
 		
-		gamerService.register(new Gamer(1, "FİLİZ BİRCE ", "ÇETİN", "BİRCE98 ", "63190268094", 1998));
+		gamerService.register(new Gamer(1, "FÃLÃZ BÃRCE ", "Ã‡ETÃN", "BÃRCE98 ", "63190268012", 1998));
 
-		gamerService.informationUpdate(new Gamer(1, "FİLİZ BİRCE", "ÇETİN", "BİRCE98 ", "63190268094", 1998));
+		gamerService.informationUpdate(new Gamer(1, "FÃLÃZ BÃRCE", "Ã‡ETÃN", "BÃRCE98 ", "63190268012", 1998));
 		
-		gamerService.deleteRecord(new Gamer(1, "FİLİZ BİRCE", "ÇETİN", "BİRCE98", "63190268094", 1998));
+		gamerService.deleteRecord(new Gamer(1, "FÃLÃZ BÃRCE", "Ã‡ETÃN", "BÃRCE98", "63190268012", 1998));
 		
 		Game game= new Game(12334, "Tabu", 1000);
 		
 	
 		
 		CampaignService campaignService= new CampaignMenager();
-		campaignService.addCampaign(new Campaign("yazılımcılara özel", 15, game));
-		campaignService.deleteCampaign(new Campaign("yazılımcılara özel", 15, game));
-        campaignService.updateCampaign(new Campaign("yazılımcılara özel", 15, game));   
+		campaignService.addCampaign(new Campaign("yazÃ½lÃ½mcÃ½lara Ã¶zel", 15, game));
+		campaignService.deleteCampaign(new Campaign("yazÃ½lÃ½mcÃ½lara Ã¶zel", 15, game));
+        campaignService.updateCampaign(new Campaign("yazÃ½lÃ½mcÃ½lara Ã¶zel", 15, game));   
     System.out.println();    
 	
 	}
